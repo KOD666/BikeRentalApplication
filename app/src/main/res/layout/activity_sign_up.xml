@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#061432"
+    tools:context=".SignUpActivity">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/bike"
+        android:layout_marginBottom="20dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/userSign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User SignUp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="38sp"
+        android:textStyle="bold"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:id="@+id/edtName1"
+        android:textStyle="bold"
+        android:imeOptions="actionNext"
+        android:ems="36"
+        android:textColorHint="@color/black"
+        android:background="@drawable/background"
+        android:inputType="text"
+        android:drawableLeft="@drawable/person"
+        android:drawablePadding="20dp"
+        android:hint="User Name"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:padding="6dp"
+        android:layout_marginTop="38dp"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:id="@+id/edtEmail"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="20dp"
+        android:hint="User Email"
+        android:background="@drawable/background"
+        android:textColor="@color/white"
+        android:ems="36"
+        android:textColorHint="@color/black"
+        android:imeOptions="actionNext"
+        android:inputType="textEmailAddress"
+        android:textSize="22sp"
+        android:padding="6dp"
+        android:layout_marginTop="16dp"/>
+
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:id="@+id/edtPassword"
+        android:textStyle="bold"
+        android:imeOptions="actionNext"
+        android:ems="10"
+        android:textColorHint="@color/black"
+        android:background="@drawable/background"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/lock"
+        android:drawablePadding="20dp"
+        android:hint="Password"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:padding="6dp"
+        android:layout_marginTop="16dp"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:id="@+id/edtRePassword"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/lock"
+        android:drawablePadding="20dp"
+        android:hint="Confirm Password"
+        android:imeOptions="actionDone"
+        android:textColorHint="@color/black"
+        android:background="@drawable/background"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:padding="6dp"
+        android:layout_marginTop="16dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="330dp"
+        android:layout_height="60dp"
+        android:text="Sign Up"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        android:background="@drawable/btns"
+        android:textStyle="bold"
+        android:padding="6dp"
+        android:layout_marginTop="38dp"
+        android:id="@+id/btnSignup"/>
+
+    <TextView
+        android:id="@+id/Logaccount"
+        style="@style/true_bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnLogin"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Already have an Account ? LOG IN" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

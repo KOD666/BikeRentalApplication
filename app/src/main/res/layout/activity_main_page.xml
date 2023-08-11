@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="#061432"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainPageActivity">
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_marginTop="20dp"
+    android:textColorHint="@color/black"
+    android:hint="Serch"
+    android:textStyle="bold"
+    android:textAllCaps="false"
+    android:textSize="18sp"
+    android:textColor="@color/white"
+    android:background="@drawable/background"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:id="@+id/serch"
+    android:drawableRight="@drawable/search"
+    android:drawablePadding="10dp"/>
+
+</LinearLayout>
